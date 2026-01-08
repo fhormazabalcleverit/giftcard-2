@@ -112,7 +112,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         </div>
 
         {/* Balance Card - Updated to Splash Gradient */}
-        <div className="relative w-full h-48 rounded-[0.8rem] bg-gradient-to-tr from-[#24d4bc] via-[#1c7cbc] to-[#1c4c9c] p-7 flex flex-col justify-between shadow-xl shadow-[#1c7cbc]/20 overflow-hidden group mb-8">
+        <div className="relative w-full h-40 rounded-[0.8rem] bg-gradient-to-tr from-[#24d4bc] via-[#1c7cbc] to-[#1c4c9c] p-5 flex flex-col justify-between shadow-xl shadow-[#1c7cbc]/20 overflow-hidden group mb-8">
           <div className="relative z-10">
             <p className="text-white/80 text-[10px] font-bold uppercase tracking-widest mb-1">
               Saldo total disponible

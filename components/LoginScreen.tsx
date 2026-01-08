@@ -22,7 +22,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
         <h1 className="text-xl font-extrabold text-[#0f172a] mb-3">
           ¡Te damos la bienvenida!
         </h1>
-        <p className="text-[#64748b] text-sm leading-relaxed font-medium">
+        <p className="text-[#64748b] text-xs leading-relaxed font-medium">
           Ingresa a tu portal optimizado y disfruta de Gift Card 2.0 de Cencosud.
         </p>
       </div>
