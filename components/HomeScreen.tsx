@@ -270,7 +270,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         {/* Business Banner with Splash Gradient */}
         <div className="w-full bg-gradient-to-br from-[#1c7cbc] to-[#1c4c9c] rounded-[1rem] p-8 flex flex-col gap-6 shadow-xl shadow-cyan-100 mb-6">
           <div className="flex flex-col gap-2">
-            <h3 className="text-white text-xl font-extrabold leading-tight">
+            <h3 className="text-white text-lg font-extrabold leading-tight">
               ¿Eres una empresa?
             </h3>
             <p className="text-white/80 text-sm font-medium leading-relaxed">
