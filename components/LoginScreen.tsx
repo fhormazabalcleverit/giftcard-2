@@ -22,7 +22,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
         <h1 className="text-xl font-extrabold text-[#0f172a] mb-3">
           ¡Te damos la bienvenida!
         </h1>
-        <p className="text-[#64748b] text-sm leading-relaxed">
+        <p className="text-[#64748b] text-sm leading-relaxed font-medium">
           Ingresa a tu portal optimizado y disfruta de Gift Card 2.0 de Cencosud.
         </p>
       </div>
@@ -41,7 +41,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="nombre@ejemplo.com"
-                className="w-full bg-[#f8fafc] border-none rounded-2xl py-4 px-5 text-[#334155] placeholder-[#cbd5e1] focus:ring-2 focus:ring-[#24d4bc] transition-all outline-none text-sm"
+                className="w-full bg-[#f8fafc] border-none rounded-2xl py-4 px-5 text-[#334155] placeholder-[#cbd5e1] focus:ring-2 focus:ring-[#24d4bc] transition-all outline-none text-sm font-semibold"
                 required
               />
             </div>
@@ -53,7 +53,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
               <label className="text-[10px] font-bold text-[#94a3b8] uppercase tracking-wider">
                 Contraseña
               </label>
-              <button type="button" className="text-[10px] font-bold text-[#1c7cbc]">
+              <button type="button" className="text-[10px] font-bold text-[#1c7cbc] hover:underline">
                 ¿Olvidaste la contraseña?
               </button>
             </div>
@@ -63,7 +63,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="........"
-                className="w-full bg-[#f8fafc] border-none rounded-2xl py-4 px-5 text-[#334155] placeholder-[#cbd5e1] focus:ring-2 focus:ring-[#24d4bc] transition-all outline-none text-sm"
+                className="w-full bg-[#f8fafc] border-none rounded-2xl py-4 px-5 text-[#334155] placeholder-[#cbd5e1] focus:ring-2 focus:ring-[#24d4bc] transition-all outline-none text-sm font-semibold"
                 required
               />
             </div>
@@ -73,7 +73,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
         {/* Login Button with Splash Gradient */}
         <button 
           type="submit"
-          className="w-full bg-gradient-to-r from-[#24d4bc] to-[#1c7cbc] text-white font-bold py-4 rounded-2xl shadow-lg shadow-[#1c7cbc]/20 hover:opacity-90 active:scale-[0.98] transition-all mb-10"
+          className="w-full bg-gradient-to-r from-[#24d4bc] to-[#1c7cbc] text-white font-bold py-4 rounded-2xl shadow-lg shadow-[#1c7cbc]/20 hover:opacity-95 active:scale-[0.98] transition-all mb-10 text-sm"
         >
           Iniciar Sesión
         </button>
@@ -116,7 +116,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
       {/* Footer link */}
       <div className="text-center">
         <p className="text-xs font-bold text-[#94a3b8]">
-          ¿No tienes cuenta? <span className="text-[#1c7cbc] cursor-pointer">Regístrate</span>
+          ¿No tienes cuenta? <span className="text-[#1c7cbc] cursor-pointer hover:underline">Regístrate</span>
         </p>
       </div>
 
