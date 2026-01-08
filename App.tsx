@@ -132,11 +132,19 @@ const App: React.FC = () => {
           {screen === 'experiences' && (
             <ExperiencesScreen 
               onBack={handleBackToHome}
+              onOpenCart={handleOpenCart}
+              onOpenAddCard={handleOpenAddCard}
+              onGoHome={handleBackToHome}
+              cartCount={cartItems.length}
             />
           )}
           {screen === 'where-to-use' && (
             <WhereToUseScreen 
               onBack={handleBackToHome}
+              onOpenCart={handleOpenCart}
+              onOpenAddCard={handleOpenAddCard}
+              onGoHome={handleBackToHome}
+              cartCount={cartItems.length}
             />
           )}
         </PhoneFrame>

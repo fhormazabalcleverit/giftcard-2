@@ -111,7 +111,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </div>
         </div>
 
-        {/* Balance Card - Updated to Splash Gradient */}
+        {/* Balance Card */}
         <div className="relative w-full h-40 rounded-[0.8rem] bg-gradient-to-tr from-[#24d4bc] via-[#1c7cbc] to-[#1c4c9c] p-5 flex flex-col justify-between shadow-xl shadow-[#1c7cbc]/20 overflow-hidden group mb-8">
           <div className="relative z-10">
             <p className="text-white/80 text-[10px] font-bold uppercase tracking-widest mb-1">
@@ -158,7 +158,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               {linkedCards.map((card) => (
                 <div 
                   key={card.id}
-                  className={`flex-shrink-0 w-[240px] h-[140px] rounded-[2rem] ${card.color} p-6 flex flex-col justify-between shadow-lg snap-center relative overflow-hidden`}
+                  className={`flex-shrink-0 w-[240px] h-[140px] rounded-2xl ${card.color} p-6 flex flex-col justify-between shadow-lg snap-center relative overflow-hidden`}
                 >
                   <div className="relative z-10">
                     <p className="text-white/80 text-[10px] font-bold uppercase mb-1">{card.name}</p>
@@ -210,7 +210,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               <div 
                 key={idx}
                 tabIndex={0}
-                className="flex-shrink-0 w-48 rounded-3xl bg-white shadow-sm border border-slate-100 overflow-hidden snap-center outline-none focus:ring-2 focus:ring-[#24d4bc] group transition-all"
+                className="flex-shrink-0 w-48 rounded-2xl bg-white shadow-sm border border-slate-100 overflow-hidden snap-center outline-none focus:ring-2 focus:ring-[#24d4bc] group transition-all"
               >
                 <div className="h-28 w-full bg-slate-200 overflow-hidden pointer-events-none">
                   <img 
@@ -267,7 +267,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </div>
         </div>
 
-        {/* Business Banner with Splash Gradient */}
+        {/* Business Banner */}
         <div className="w-full bg-gradient-to-br from-[#1c7cbc] to-[#1c4c9c] rounded-[1rem] p-8 flex flex-col gap-6 shadow-xl shadow-cyan-100 mb-6">
           <div className="flex flex-col gap-2">
             <h3 className="text-white text-lg font-extrabold leading-tight">
